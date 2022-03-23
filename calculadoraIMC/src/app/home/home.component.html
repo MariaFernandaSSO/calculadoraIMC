@@ -1,25 +1,33 @@
-<div class="cor">
-  <div class="text-center"><h3>CALCULADORA DE IMC</h3></div>
+<div class="row">
+  <div class="col"></div>
+  <div class="col">
+    <div class="estilo-div-principal ">
+  <div class="text-center pt-5 pb-1"><h3>CALCULADORA DE IMC</h3></div>
 
-  <div class="form-floating mb-3">
+  <div class="form-floating">
     <input type="text" class="form-control" id="floatingInput" placeholder="Ex: Carlos" [(ngModel)]="nome">
     <label for="floatingInput">Nome:</label>
   </div>
 
-  <div class="form-floating mb-3">
+  <div class="form-floating">
     <input type="number" class="form-control" id="floatingPassword" placeholder="Ex: 34" [(ngModel)]="peso">
     <label for="floatingPassword">Peso:</label>
   </div>
 
-  <div class="form-floating mb-3">
+  <div class="form-floating">
     <input type="number" class="form-control" id="floatingPassword" placeholder="Ex: 1,49" [(ngModel)]="altura">
     <label for="floatingPassword">Altura:</label>
   </div>
 
-  <div class="row" style="text-align: center;">
-    <div class="col-12">
-      <button type="submit"class="btn btn-lg btn-primary btn-block" (click)="calcular()">Calcular</button>
-  </div>
+    <div class="d-grid gap-2">
+        <button class="btn btn-danger" (click)="calcular()"type="button">Calcular</button>
+    </div>
 
-  <div>{{resultado}}</div>
+
+  <div><p>{{resultado}}</p></div>
 </div>
+</div>
+ <div class="col"></div>
+</div>
+
+<div class="row"> <span>Feito por MariaFernandaSSO </span> </div>
