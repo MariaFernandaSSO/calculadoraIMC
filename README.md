@@ -1,5 +1,4 @@
 # Calculadora IMC
-
 Projeto simples desenvolvido utilizando Angular, Typescript e Bootstrap. Com finalidade de realizar o calculo de IMC.
 
 Obs: O foco principal não foi a estilização e sim mais a questão do calculo envolvendo as variáveis e o comportamento delas quanto a isto. 
